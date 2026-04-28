@@ -45,7 +45,8 @@ requirements.txt → Python dependencies
 ---
 
 ## 📈 Dashboard Preview
-(Add screenshot here)
+
+![test image](https://raw.githubusercontent.com/hamaisahmed862-netizen/ecommerce-analytics-project/main/outputs/dashboard.png)
 
 ---
 
