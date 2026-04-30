@@ -1,67 +1,95 @@
-# 📊 E-commerce Analytics Project
+# 📊 E-Commerce Analytics Project (SQL + Python + Power BI)
 
-## 🧠 Overview
-This project is an end-to-end data analytics solution built using real-world e-commerce data. It involves SQL-based data extraction, Python-based exploratory data analysis (EDA), and dashboard creation in Power BI.
+## 📌 Overview
+This project is an end-to-end **E-commerce Data Analytics solution** combining **SQL, Python, and Power BI** to analyze sales performance, customer behavior, and product trends.
 
-The goal is to analyze sales performance, identify top revenue-generating categories, and extract business insights.
-
----
-
-## 📌 Objectives
-- Perform data extraction and aggregation using SQL
-- Clean and analyze data using Python (Pandas, NumPy)
-- Visualize insights using Matplotlib and Seaborn
-- Build an interactive dashboard in Power BI
-- Generate business insights for decision-making
+The goal is to extract actionable insights from raw transactional data and present them through an interactive dashboard.
 
 ---
 
-## 🛠️ Tools & Technologies
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- SQL
-- Power BI
-
-data/ → Processed dataset
-notebooks/ → Python EDA analysis
-sql/ → SQL queries
-outputs/ → Charts, dashboard screenshot, insights
-README.md → Project documentation
-requirements.txt → Python dependencies
-.gitignore → Ignored files (venv, cache)
+## 🗂️ Project Structure
+ecommerce-analytics-project/
+│
+├── data/ # Raw and processed datasets
+├── python/ # Python scripts for EDA and analysis
+├── sql/ # SQL queries and analysis
+├── outputs/ # Charts and visual outputs
+├── screenshots/ # Power BI dashboard images
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
 
 
 ---
 
-## 📊 Key Insights
-- Revenue is highly concentrated in a few top categories
-- Most categories generate relatively low revenue (right-skewed distribution)
-- A small number of categories contribute significantly to total sales
-- Business shows dependency on top-performing product segments
+## 📊 Power BI Dashboard
+
+The dashboard includes:
+
+- 💰 Total Revenue
+- 📦 Total Orders
+- 👥 Total Customers
+- ⭐ Average Review Score
+- 🚚 Freight Value Analysis
+- 📈 Monthly Revenue Trends
+- 🏆 Top Product Categories
+
+### 📷 Dashboard Preview
+
+#### Stage 1 Dashboard
+![Stage 1 Dashboard](screenshots/dashboard_stage1.png)
+
+#### Stage 2 Dashboard
+![Stage 2 Dashboard](screenshots/dashboard_stage2.png)
 
 ---
 
-## 📈 Dashboard Preview
+## 🧹 Data Processing
 
-![test image](https://raw.githubusercontent.com/hamaisahmed862-netizen/ecommerce-analytics-project/main/outputs/dashboard.png)
+### Python (EDA)
+- Handled missing values
+- Removed duplicates
+- Created revenue-based features
+- Performed exploratory data analysis (EDA)
+
+### SQL
+- Aggregated sales data
+- Created category-level insights
+- Performed revenue breakdown analysis
 
 ---
 
-## 🚀 Key Learnings
-- Data aggregation using SQL GROUP BY
-- Data cleaning and transformation in Python
-- Exploratory Data Analysis (EDA)
-- Data visualization using Seaborn and Matplotlib
-- Building business dashboards in Power BI
+## 📈 Key Insights
+
+- Revenue shows seasonal fluctuations across months
+- A small number of product categories contribute most of the revenue
+- Freight cost significantly impacts total order value
+- Customer ratings are generally positive (avg ~4.0+)
 
 ---
 
-## 👨‍💻 Author
+## ⚙️ Tech Stack
+
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- SQL (Data aggregation & transformation)
+- Power BI (Dashboard & visualization)
+- Git & GitHub (Version control)
+
+---
+
+## 📦 Installation
+
+```bash
+pip install -r requirements.txt
+
+📁 requirements.txt
+pandas
+numpy
+matplotlib
+seaborn
+
+🚀 Author
+
 Hamais Ahmed
 
----
-
-## 📁 Project Structure
+Data Analytics Project
+GitHub Portfolio Project
