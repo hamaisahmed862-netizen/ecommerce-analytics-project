@@ -1,0 +1,19 @@
+PROJECT: E-commerce Revenue Analysis
+
+1. Revenue Concentration
+Revenue is highly concentrated in a small number of top-performing categories. The top 10 categories contribute a major share of total revenue, showing strong dependency on limited product segments.
+
+2. Skewed Revenue Distribution
+The revenue distribution is highly right-skewed. Most categories generate low revenue, while a few categories generate very high revenue.
+
+3. Outliers in Revenue (Boxplot Analysis)
+The boxplot shows significant upper-end outliers, meaning a small number of categories perform far better than the rest.
+
+4. Long-Tail Structure
+The dataset follows a long-tail pattern, where a few categories dominate revenue and the majority contribute minimally.
+
+5. Business Risk Insight
+There is a concentration risk because overall revenue depends heavily on a few high-performing categories. Any decline in these categories can significantly impact total revenue.
+
+6. Analytical Transformation Insight
+Log transformation was used during analysis to reduce skewness and understand distribution patterns more clearly. However, it is not used in final visualizations because it is not easily interpretable for business users.

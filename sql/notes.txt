@@ -1,0 +1,55 @@
+PROJECT: E-commerce Data Analysis (Olist Dataset)
+
+OBJECTIVE:
+To analyze category-wise revenue using real e-commerce data and identify top-performing product categories.
+
+------------------------------------------------------------
+
+DATA SOURCES:
+- orders
+- payments
+- items
+- products
+- product_category
+
+------------------------------------------------------------
+
+KEY PROBLEM:
+The dataset is normalized, meaning data is split across multiple tables.
+This creates duplication issues when joining tables (especially payments and items).
+
+------------------------------------------------------------
+
+CHALLENGE:
+- One order can have multiple items
+- Payment is at order level, but items are at product level
+- Direct joins cause revenue duplication
+
+------------------------------------------------------------
+
+SOLUTION:
+- Calculated total payment per order using aggregation (SUM)
+- Counted items per order
+- Distributed payment across items to avoid duplication
+- Joined products with category table for English category names
+
+------------------------------------------------------------
+
+FINAL OUTPUT:
+A clean dataset containing:
+- product category (English)
+- correctly distributed revenue per category
+
+------------------------------------------------------------
+
+USAGE:
+This dataset is used for:
+- Python EDA (Pandas, Seaborn)
+- Power BI dashboard
+- Business insights (category performance)
+
+------------------------------------------------------------
+
+KEY INSIGHT:
+Revenue is concentrated in a few categories (health, beauty, home, electronics),
+while many categories contribute very little (long-tail distribution).
